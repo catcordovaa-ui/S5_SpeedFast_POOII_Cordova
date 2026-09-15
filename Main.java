@@ -54,7 +54,7 @@ public class Main {
         Thread hilo1 = new Thread(repartidor1);
         Thread hilo2 = new Thread(repartidor2);
         Thread hilo3 = new Thread(repartidor3);
-
+System.out.println("Iniciando entregas...");
         hilo1.start();
         hilo2.start();
         hilo3.start();
