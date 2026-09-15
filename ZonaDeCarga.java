@@ -12,7 +12,8 @@ public class ZonaDeCarga {
     }
 
     public synchronized void agregarPedido(Pedido p) {
-        pedidos.add(p);
+    pedidos.add(p);
+    System.out.println("Pedido agregado a la zona de carga: " + p.getId());
     }
 
     public synchronized Pedido retirarPedido() {
